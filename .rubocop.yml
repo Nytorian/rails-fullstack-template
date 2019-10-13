@@ -1,0 +1,206 @@
+Naming/PredicateName:
+  NameWhitelist: is_are
+
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - db/schema.rb
+  TargetRubyVersion: 2.3
+
+Style/GlobalVars:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Lint/ParenthesesAsGroupedExpression:
+  Enabled: false
+
+Lint/EmptyWhen:
+  Enabled: false
+
+Style/LambdaCall:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Layout/SpaceAroundOperators:
+  AllowForAlignment: true
+
+Layout/SpaceBeforeBlockBraces:
+  EnforcedStyle: no_space
+
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/RegexpLiteral:
+  EnforcedStyle: mixed
+
+Style/AndOr:
+  EnforcedStyle: conditionals
+
+Style/UnneededInterpolation:
+  Enabled: false
+
+Layout/DotPosition:
+  EnforcedStyle: leading
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/IndentFirstArrayElement:
+  EnforcedStyle: consistent
+
+Layout/IndentFirstHashElement:
+  EnforcedStyle: consistent
+
+Style/AsciiComments:
+  Enabled: false
+
+Layout/IndentFirstArgument:
+  EnforcedStyle: consistent
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/CaseEquality:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+
+Style/IdenticalConditionalBranches:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
+Style/StructInheritance:
+  Enabled: false
+
+Style/OptionalArguments:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineAssignmentLayout:
+  EnforcedStyle: new_line
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Lint/AmbiguousOperator:
+  Enabled: false
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+  AutoCorrect: true
+
+Layout/DefEndAlignment:
+  AutoCorrect: true
+
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+
+Lint/UselessAssignment:
+  Enabled: false
+
+Lint/IneffectiveAccessModifier:
+  Enabled: false
+
+Lint/UselessAccessModifier:
+  Enabled: false
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Lint/HandleExceptions:
+  Enabled: false
+
+Metrics/BlockNesting:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/RescueModifier:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/RescueStandardError:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
