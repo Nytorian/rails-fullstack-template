@@ -15,4 +15,9 @@
 //= require turbolinks
 //= require jquery
 //= require jquery-ui
+//= require bootstrap
+//= require bootstrap-select-bs4
+//= require bootstrap-toggle
+//= require remarkable-bootstrap-notify
+//= require tempusdominus-bootstrap-4
 //= require_tree .
