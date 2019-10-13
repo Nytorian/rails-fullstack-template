@@ -16,7 +16,6 @@ namespace :test do
       tmp_errors << "#{k}" unless v[:success]
     end
 
-    msg = tmp_errors.any? ? "Errors found in: #{tmp_errors.join(', ')}" : 'Success! No errors found!'
-    puts msg
+    puts(tmp_errors.any? ? "Errors found in: #{tmp_errors.join(', ')}" : 'Success! No errors found!')
   end
 end
