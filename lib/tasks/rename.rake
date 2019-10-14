@@ -6,7 +6,16 @@ task :rename do
   puts(success ? 'Success!' : 'Something went wrong!')
 
   new_dir_name = Rails.root.to_s.gsub('rails-fullstack-template', tmp_name)
-  success = system("cd #{new_dir_name}") if success
 
-  puts "Go to: #{new_dir_name}" unless success
+  if success
+    loop do
+      sleep(1)
+      break if File.directory?(new_dir_name)
+    end
+
+    system("rm #{new_dir_name}/CONTRIBUTING.md")
+    system("rm #{new_dir_name}/README.md")
+
+    system("mv README.md.sample README.md")
+  end
 end
