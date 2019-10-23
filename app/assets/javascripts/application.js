@@ -19,5 +19,6 @@
 //= require bootstrap-select-bs4
 //= require bootstrap-toggle
 //= require remarkable-bootstrap-notify
+//= require moment
 //= require tempusdominus-bootstrap-4
 //= require_tree .
