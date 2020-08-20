@@ -3,6 +3,7 @@ git_source(:github){ |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
+gem "activesupport", ">= 5.2.4.3"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.3.1'

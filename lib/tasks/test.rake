@@ -12,8 +12,8 @@ namespace :test do
     tmp_errors = []
 
     test_types.each do |k, v|
-      v[:success] = system("#{v[:command]}")
-      tmp_errors << "#{k}" unless v[:success]
+      v[:success] = system((v[:command]).to_s)
+      tmp_errors << k.to_s unless v[:success]
     end
 
     puts(tmp_errors.any? ? "Errors found in: #{tmp_errors.join(', ')}" : 'Success! No errors found!')

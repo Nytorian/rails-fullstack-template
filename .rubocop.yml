@@ -1,13 +1,10 @@
-Naming/PredicateName:
-  NameWhitelist: is_are
-
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: false
 
 AllCops:
   Exclude:
     - db/schema.rb
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.6
 
 Style/GlobalVars:
   Enabled: false
@@ -60,25 +57,25 @@ Style/RegexpLiteral:
 Style/AndOr:
   EnforcedStyle: conditionals
 
-Style/UnneededInterpolation:
+Lint/SuppressedException:
   Enabled: false
 
 Layout/DotPosition:
   EnforcedStyle: leading
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
 Style/AsciiComments:
   Enabled: false
 
-Layout/IndentFirstArgument:
+Layout/FirstArgumentIndentation:
   EnforcedStyle: consistent
 
 Style/ClassAndModuleChildren:
@@ -157,7 +154,7 @@ Lint/UselessAccessModifier:
 Lint/AssignmentInCondition:
   Enabled: false
 
-Lint/HandleExceptions:
+Lint/SuppressedException:
   Enabled: false
 
 Metrics/BlockNesting:
